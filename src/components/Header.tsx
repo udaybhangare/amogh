@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <header className="fixed w-full z-50 bg-background/80 backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl md:text-3xl font-bold">
           Amogh Shirke
         </Link>
         <div className="hidden md:flex space-x-4 items-center">
